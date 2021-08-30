@@ -3,14 +3,16 @@
     "target": "es2017",
     "module": "commonjs",
     "lib": ["es6"],
-    "types": ["mocha", "express"],
+    "types": ["express"],
     "rootDir": "./src",
     "outDir": "dist",
     "removeComments": true,
     "strict": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   "include": ["src/**/*"],
   "exclude": [
